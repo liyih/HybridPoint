@@ -50,7 +50,7 @@ Unzip GeoTransformer-main.zip
 
 -Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
 
-## pre-train model
+## Pre-train model
 The results of the pre-trained model we provide are slightly better than the results shown in the paper.
 
 -./weights_for_hybrid/3dmatch.tar for 3DMatch&3DLoMatch
