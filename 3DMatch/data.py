@@ -30,7 +30,7 @@ def precompute_data_stack_mode(points, lengths, num_stages, voxel_size, radius, 
     #######################
     ####use hybridpoint####
     #######################
-    sigmma = 0.2
+    sigmma = 0.15
     #salient point
     ref_len=lengths_list[-2][0]
     src_len=lengths_list[-2][1]
@@ -38,8 +38,8 @@ def precompute_data_stack_mode(points, lengths, num_stages, voxel_size, radius, 
     ref_input=points_list[-2][:ref_len].cpu().numpy()
     src_input=points_list[-2][ref_len:].cpu().numpy()
     
-    keypoint_ref = iss(ref_input, gamma21=0.6, gamma32=0.6, KDTree_radius=0.15, NMS_radius=0.2, max_num=5000)
-    keypoint_src = iss(src_input, gamma21=0.6, gamma32=0.6, KDTree_radius=0.15, NMS_radius=0.2, max_num=5000)
+    keypoint_ref = iss(ref_input, gamma21=0.6, gamma32=0.6, KDTree_radius=0.15, NMS_radius=0.15, max_num=5000)
+    keypoint_src = iss(src_input, gamma21=0.6, gamma32=0.6, KDTree_radius=0.15, NMS_radius=0.15, max_num=5000)
     keypoint_ref=torch.from_numpy(keypoint_ref)
     keypoint_src=torch.from_numpy(keypoint_src)
     
