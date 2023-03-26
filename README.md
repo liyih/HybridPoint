@@ -5,7 +5,7 @@ Our paper is accepted by International Conference on Multimedia & Expo 2023
 [HybridPoint: Point cloud registration based on hybrid point sampling and matching]().
 
 # Autuor
-[Yiheng Li][1],[Caihui Tang][1],[Runzhao Yao][1],[Aixue Ye][2],[Feng Wen][2],[Shaoyi Du](https://scholar.google.com.hk/citations?user=r2bk4sQAAAAJ)[1]
+[Yiheng Li][1],[Caihui Tang][1],[Runzhao Yao](https://scholar.google.com.sg/citations?user=udCF7q4AAAAJ)[1],[Aixue Ye][2],[Feng Wen][2],[Shaoyi Du](https://scholar.google.com.hk/citations?user=r2bk4sQAAAAJ)[1]
 
 1:National Key Laboratory of Human-Machine Hybrid Augmented Intelligence,
   National Engineering Research Center for Visual Information and Applications,
