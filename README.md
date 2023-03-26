@@ -1,6 +1,6 @@
 # HybridPoint: Point cloud registration based on hybrid point sampling and matching
 
-Our paper is accepted by International Conference on Multimedia & Expo 2023
+**Our paper is accepted by International Conference on Multimedia & Expo 2023**
 
 [HybridPoint: Point cloud registration based on hybrid point sampling and matching]().
 
