@@ -24,9 +24,9 @@ Our project only need to replace some files in Geotransformer. Our method obtain
 
 # Training Process
 Firstly, download the code of [Geometric Transformer for Fast and Robust Point Cloud Registration](https://github.com/qinzheng93/GeoTransformer) or directly use the codes in our project which we download from (https://github.com/qinzheng93/GeoTransformer) previously.
-
+```
 Unzip GeoTransformer-main.zip
-
+```
 ## 3DMatch & 3DLoMatch
 ```
 Replace ./GeoTransformer-main/geotransformer/utils/data.py by ./3DMatch/data.py
