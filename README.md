@@ -29,34 +29,36 @@ Firstly, download the code of [Geometric Transformer for Fast and Robust Point C
 Unzip GeoTransformer-main.zip
 
 ## 3DMatch & 3DLoMatch
--Replace ./GeoTransformer-main/geotransformer/utils/data.py by ./3DMatch/data.py
+```
+Replace ./GeoTransformer-main/geotransformer/utils/data.py by ./3DMatch/data.py
 
--Insert ./3DMatch/keypoints_detect.py in ./GeoTransformer-main/geotransformer/utils/
+Insert ./3DMatch/keypoints_detect.py in ./GeoTransformer-main/geotransformer/utils/
 
--Replace ./GeoTransformer-main/experiments/geotransformer.3dmatch.stage4.gse.k3.max.oacl.stage2.sinkhorn/model.py by ./3DMatch/model.py
+Replace ./GeoTransformer-main/experiments/geotransformer.3dmatch.stage4.gse.k3.max.oacl.stage2.sinkhorn/model.py by ./3DMatch/model.py
 
--Set _C.coarse_matching.num_correspondences to 512 in ./GeoTransformer-main/experiments/geotransformer.3dmatch.stage4.gse.k3.max.oacl.stage2.sinkhorn/config.py
+Set _C.coarse_matching.num_correspondences to 512 in ./GeoTransformer-main/experiments/geotransformer.3dmatch.stage4.gse.k3.max.oacl.stage2.sinkhorn/config.py
 
--Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
-
+Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
+```
 ## Kitti odometry
--Replace ./GeoTransformer-main/geotransformer/utils/data.py by ./KITTI/data.py
+```
+Replace ./GeoTransformer-main/geotransformer/utils/data.py by ./KITTI/data.py
 
--Insert ./KITTI/keypoints_detect.py in ./GeoTransformer-main/geotransformer/utils/
+Insert ./KITTI/keypoints_detect.py in ./GeoTransformer-main/geotransformer/utils/
 
--Replace ./GeoTransformer-main/experiments/geotransformer.kitti.stage5.gse.k3.max.oacl.stage2.sinkhorn/model.py by ./KITTI/model.py
+Replace ./GeoTransformer-main/experiments/geotransformer.kitti.stage5.gse.k3.max.oacl.stage2.sinkhorn/model.py by ./KITTI/model.py
 
--Set _C.coarse_matching.num_correspondences to 512 in ./GeoTransformer-main/experiments/geotransformer.kitti.stage5.gse.k3.max.oacl.stage2.sinkhorn/config.py
+Set _C.coarse_matching.num_correspondences to 512 in ./GeoTransformer-main/experiments/geotransformer.kitti.stage5.gse.k3.max.oacl.stage2.sinkhorn/config.py
 
--Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
-
+Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
+```
 ## Pre-train model
 The results of the pre-trained model we provide are slightly better than the results shown in the paper.
+```
+./weights_for_hybrid/3dmatch.tar for 3DMatch&3DLoMatch
 
--./weights_for_hybrid/3dmatch.tar for 3DMatch&3DLoMatch
-
--./weights_for_hybrid/kitti.tar for Kitti odometry
-
+./weights_for_hybrid/kitti.tar for Kitti odometry
+```
 # Citation
 ```bibtex
 ```
