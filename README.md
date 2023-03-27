@@ -65,6 +65,12 @@ The results evaluated based on pre-train model are as follows:
 | 3DMatch   | 93.4  | 1.550  | 0.050  |
 | 3DLoMatch | 76.0  | 2.424  | 0.071  |
 
+| Benchmark |  RR(%)  |  RRE(°)   |  RTE(cm)   |
+| :-------- | :---: | :---: | :---: |
+| KITTI   | 99.8  | 0.22  | 5.1  |
+
+we employ local-to-global registration(LGR) method as an estimator of the transformation matrix instead of RANSAC, as LGR is a faster and more robust method than RANSAC. For all the method, we use 1000 correspondences for evaluation.
+
 ```
 ./weights_for_hybrid/3dmatch.tar for 3DMatch&3DLoMatch
 
