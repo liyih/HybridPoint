@@ -28,7 +28,7 @@ The codes of our project mainly base on:
 Thanks for their contribution. Our project only need to replace some files in Geotransformer. Our method obtains performance improvement, and only adds a negligible amount of computation.
 
 # Training Process
-Firstly, download the code of [Geometric Transformer for Fast and Robust Point Cloud Registration](https://github.com/qinzheng93/GeoTransformer) or directly use the codes in our project which we download from (https://github.com/qinzheng93/GeoTransformer) previously.
+Firstly, download the code of [Geometric Transformer for Fast and Robust Point Cloud Registration](https://github.com/qinzheng93/GeoTransformer) or directly use the codes in our project which we download from https://github.com/qinzheng93/GeoTransformer previously.
 ```
 Unzip GeoTransformer-main.zip
 ```
