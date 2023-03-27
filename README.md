@@ -58,6 +58,13 @@ Then you can train or test by following the same methods as Geotransformer.(seei
 ```
 ## Pre-train model
 The results of the pre-trained model we provide are slightly better than the results shown in the paper.
+The results evaluated based on pre-train model are as follows:
+
+| Benchmark |  RR  |  RRE   |  RTE   |
+| :-------- | :---: | :---: | :---: |
+| 3DMatch   | 93.4  | 1.550  | 0.050  |
+| 3DLoMatch | 76.0  | 2.424  | 0.071  |
+
 ```
 ./weights_for_hybrid/3dmatch.tar for 3DMatch&3DLoMatch
 
