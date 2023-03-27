@@ -23,7 +23,7 @@ Patch-to-point matching has become a robust way of point cloud registration. How
 # Acknowledgements
 The codes of our project mainly base on:
 
-🏆[Geometric Transformer for Fast and Robust Point Cloud Registration](https://github.com/qinzheng93/GeoTransformer). 
+🏆[Geometric Transformer for Fast and Robust Point Cloud Registration](https://github.com/qinzheng93/GeoTransformer). (CVPR 2022)
 
 Thanks for their contribution. Our project only need to replace some files in Geotransformer. Our method obtains performance improvement, and only adds a negligible amount of computation.
 
