@@ -57,7 +57,7 @@ Set _C.coarse_matching.num_correspondences to 512 in ./GeoTransformer-main/exper
 Then you can train or test by following the same methods as Geotransformer.(seeing in ./GeoTransformer-main/README.md)
 ```
 ## Pre-train model
-The results of the pre-trained model we provide are slightly better than the results shown in the paper.
+The results of the newest pre-trained model are slightly better than the results shown in the paper.
 The results evaluated based on pre-train model are as follows:
 
 | Benchmark |  RR(%)  |  RRE(°)   |  RTE(m)   |
