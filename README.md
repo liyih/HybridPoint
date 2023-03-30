@@ -2,9 +2,9 @@
 
 🔥🔥🔥**Our paper is accepted by IEEE International Conference on Multimedia & Expo 2023**🔥🔥🔥
 
-[HybridPoint: Point cloud registration based on hybrid point sampling and matching]().
+[HybridPoint: Point cloud registration based on hybrid point sampling and matching](https://arxiv.org/abs/2303.16526).
 
-🚀🚀The camera_ready version of our paper has been released, click [here](https://arxiv.org/abs/2303.16526).🚀🚀
+🚀🚀The camera_ready version of our paper has been released.🚀🚀
 # Autuor
 Yiheng Li[1],Caihui Tang[1],[Runzhao Yao](https://scholar.google.com.sg/citations?user=udCF7q4AAAAJ)[1],Aixue Ye[2],Feng Wen[2],[Shaoyi Du](https://scholar.google.com.hk/citations?user=r2bk4sQAAAAJ)[1]
 
