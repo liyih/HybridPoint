@@ -2,6 +2,8 @@
 
 🔥🔥🔥**Our paper is accepted by IEEE International Conference on Multimedia & Expo 2023**🔥🔥🔥
 
+🔥🔥🔥**Our paper is selected as Oral in ICME 2023**🔥🔥🔥
+
 [HybridPoint: Point cloud registration based on hybrid point sampling and matching](https://arxiv.org/abs/2303.16526).
 
 🚀🚀The camera_ready version of our paper has been released.🚀🚀
