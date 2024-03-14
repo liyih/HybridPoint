@@ -80,6 +80,16 @@ We employ local-to-global registration(LGR) method as an estimator of the transf
 ```
 # Citation
 ```bibtex
+@inproceedings{li2023hybridpoint,
+  title={HybridPoint: Point Cloud Registration Based on Hybrid Point Sampling and Matching},
+  author={Li, Yiheng and Tang, Canhui and Yao, Runzhao and Ye, Aixue and Wen, Feng and Du, Shaoyi},
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={2021--2026},
+  year={2023},
+  organization={IEEE}
+}
+```
+```bibtex
 @article{li2023hybridpoint,
   title={HybridPoint: Point Cloud Registration Based on Hybrid Point Sampling and Matching},
   author={Li, Yiheng and Tang, Canhui and Yao, Runzhao and Ye, Aixue and Wen, Feng and Du, Shaoyi},
